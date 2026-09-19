@@ -27,30 +27,30 @@ const traits = [
 
 export default function Experience() {
   return (
-    <section id="الخبرات" className="section-padding bg-coal-800 text-linen-100">
+    <section id="الخبرات" className="section-padding bg-royal-50">
       <div className="container-page">
         <div className="mb-12 flex flex-col items-center gap-4 text-center sm:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-linen-100">
+          <h2 className="text-3xl md:text-4xl font-bold text-ink-900">
             الخبرة العملية
           </h2>
-          <p className="max-w-2xl text-base leading-7 text-linen-200/80">
+          <p className="max-w-2xl text-base leading-7 text-ink-700/80">
             خبرة عملية تزيد عن عشر سنوات في مجال المطاعم والمطابخ، اكتسب
             خلالها مهارات عملية راسخة في إدارة سير العمل داخل المطبخ
           </p>
-          <span className="h-1 w-16 rounded-full bg-gradient-to-l from-ember-500 to-saffron-500" />
+          <span className="h-1 w-16 rounded-full bg-gradient-to-l from-royal-600 to-crimson-500" />
         </div>
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {traits.map(({ icon: Icon, title, description }) => (
             <div
               key={title}
-              className="rounded-2xl border border-linen-100/10 bg-linen-100/5 p-6 text-right backdrop-blur-sm"
+              className="rounded-2xl border border-royal-100 bg-white p-6 text-right shadow-card"
             >
-              <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-ember-500/90 text-linen-100">
+              <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-royal-600 text-white">
                 <Icon size={22} strokeWidth={1.8} />
               </div>
-              <h3 className="text-base font-bold text-linen-100">{title}</h3>
-              <p className="mt-2 text-sm leading-7 text-linen-200/75">
+              <h3 className="text-base font-bold text-ink-900">{title}</h3>
+              <p className="mt-2 text-sm leading-7 text-ink-700/80">
                 {description}
               </p>
             </div>

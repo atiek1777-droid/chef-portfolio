@@ -7,53 +7,60 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        coal: {
-          DEFAULT: "#2E1C14",
-          50: "#F6F1EC",
-          100: "#E8DCD0",
-          200: "#C9B29B",
-          400: "#7A5B47",
-          600: "#4A3226",
-          800: "#2E1C14",
-          900: "#1F130D",
+        // Primary — #5400DE
+        royal: {
+          50: "#F2E9FF",
+          100: "#E2CFFC",
+          300: "#B27CF2",
+          500: "#7A2FE0",
+          600: "#5400DE",
+          700: "#43009F",
+          900: "#26025B",
         },
-        ember: {
-          DEFAULT: "#C5652B",
-          50: "#FDF3EC",
-          100: "#FAE4D2",
-          300: "#E8A06B",
-          500: "#C5652B",
-          600: "#A84F20",
-          700: "#8A3F19",
+        // Secondary — #9E2A2B
+        crimson: {
+          50: "#FBEDED",
+          100: "#F3D2D2",
+          300: "#C56A6A",
+          500: "#9E2A2B",
+          600: "#822122",
         },
-        saffron: {
-          DEFAULT: "#C79A3C",
-          100: "#F2E6C8",
-          300: "#DDBB6E",
-          500: "#C79A3C",
-          600: "#A87E2C",
+        // Accent / CTA — #E09F3E
+        gold: {
+          50: "#FDF4E4",
+          100: "#FAE6C2",
+          300: "#EEC077",
+          500: "#E09F3E",
+          600: "#C1822A",
         },
-        linen: {
-          DEFAULT: "#FBF7F1",
+        // Borders / muted text — #B1A7A6
+        stone: {
+          100: "#F1EDEB",
+          200: "#E3DCD9",
+          400: "#B1A7A6",
+          500: "#8F8483",
+        },
+        // Background — #FFF8F0
+        cream: {
+          DEFAULT: "#FFF8F0",
           100: "#FFFFFF",
-          200: "#F5EFE5",
-          300: "#EDE3D3",
+          200: "#FCF1E4",
         },
-        ash: {
-          500: "#8A8078",
-          600: "#6B6259",
-          700: "#4E473F",
+        // Readable dark neutral, tuned to sit with the purple/crimson family
+        ink: {
+          700: "#3D3541",
+          900: "#241129",
         },
       },
       fontFamily: {
         sans: ["var(--font-tajawal)", "Tajawal", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        soft: "0 20px 45px -20px rgba(46, 28, 20, 0.35)",
-        card: "0 10px 30px -12px rgba(46, 28, 20, 0.18)",
+        soft: "0 20px 45px -22px rgba(84, 0, 222, 0.28)",
+        card: "0 10px 28px -14px rgba(36, 17, 41, 0.16)",
       },
       backgroundImage: {
-        grain: "radial-gradient(circle at 1px 1px, rgba(46,28,20,0.06) 1px, transparent 0)",
+        grain: "radial-gradient(circle at 1px 1px, rgba(84,0,222,0.05) 1px, transparent 0)",
       },
     },
   },

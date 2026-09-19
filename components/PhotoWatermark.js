@@ -22,7 +22,7 @@ export default function PhotoWatermark({
         alt=""
         fill
         sizes="220px"
-        className="rounded-[2.5rem] object-cover grayscale"
+        className="object-cover grayscale"
       />
     </div>
   );

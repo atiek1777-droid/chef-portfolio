@@ -54,7 +54,7 @@ export default function Contact() {
 
         <div className="relative hidden h-80 w-full lg:block lg:w-[45%]">
           <Image
-            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=600&fit=crop"
+            src="/images/food/kitchen-1.jpg"
             alt="مطبخ احترافي"
             fill
             className="object-cover rounded-2xl"

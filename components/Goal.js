@@ -22,7 +22,7 @@ export default function Goal() {
 
           <div className="relative h-80 w-full overflow-hidden rounded-2xl shadow-soft">
             <Image
-              src="https://images.unsplash.com/photo-1504674900769-2c8f4a36f55d?w=600&h=500&fit=crop"
+              src="/images/food/premium-dish.jpg"
               alt="طبق راقٍ من الطعام"
               fill
               className="object-cover"

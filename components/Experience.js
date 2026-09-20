@@ -7,26 +7,26 @@ const traits = [
     title: "العمل تحت الضغط",
     description:
       "قدرة عالية على إنجاز الطلبات في أوقات الذروة دون التأثير على الجودة",
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+    image: "/images/food/kitchen-1.jpg",
   },
   {
     icon: ShieldCheck,
     title: "تنظيم المطبخ",
     description: "الالتزام بالنظافة وترتيب المطبخ وسلامة الأغذية بشكل دائم",
-    image: "https://images.unsplash.com/photo-1581099160562-40eb08ab9c19?w=400&h=300&fit=crop",
+    image: "/images/food/kitchen-2.jpg",
   },
   {
     icon: Timer,
     title: "سرعة تجهيز الطلبات",
     description: "إنجاز الطلبات بسرعة ودقة مع الحفاظ على مذاق وجودة الطعام",
-    image: "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=400&h=300&fit=crop",
+    image: "/images/food/kitchen-3.jpg",
   },
   {
     icon: Users2,
     title: "العمل ضمن فريق",
     description:
       "التكيف مع مختلف بيئات العمل والتعاون الجيد مع الزملاء وفريق المطبخ",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop",
+    image: "/images/food/kitchen-4.jpg",
   },
 ];
 

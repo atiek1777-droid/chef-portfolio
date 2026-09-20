@@ -36,7 +36,7 @@ export default function About() {
             </div>
             <div className="relative h-48 w-full overflow-hidden rounded-2xl shadow-card">
               <Image
-                src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&h=400&fit=crop"
+                src="/images/food/kitchen-3.jpg"
                 alt="شيف يعد الطعام"
                 fill
                 className="object-cover"

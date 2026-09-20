@@ -8,16 +8,16 @@
   }
 
   body {
-    @apply bg-cream text-ink-700 antialiased;
+    @apply bg-cream text-warmgray-900 antialiased;
     font-feature-settings: "kern";
   }
 
   ::selection {
-    @apply bg-gold-100 text-ink-900;
+    @apply bg-yellow-100 text-brown-800;
   }
 
   :focus-visible {
-    outline: 2px solid theme("colors.royal.600");
+    outline: 2px solid theme("colors.amber.500");
     outline-offset: 3px;
     border-radius: 4px;
   }

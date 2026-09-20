@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="تواصل"
-      className="relative overflow-hidden section-padding bg-gradient-to-br from-royal-600 to-crimson-500 text-white"
+      className="relative overflow-hidden section-padding bg-gradient-to-br from-amber-500 to-yellow-500 text-white"
     >
       <PhotoWatermark
         position="left-[8%] top-[-2rem] hidden sm:block"
@@ -20,14 +20,14 @@ export default function Contact() {
           <h2 className="text-3xl font-bold text-white md:text-4xl">
             جاهز للانضمام إلى فريق عمل محترف
           </h2>
-          <p className="max-w-xl text-base leading-7 text-white/85">
+          <p className="max-w-xl text-base leading-7 text-white/90">
             للتواصل المباشر بخصوص فرص العمل، يمكنكم الاتصال أو مراسلتي عبر
             واتساب في أي وقت
           </p>
 
           <div
             dir="ltr"
-            className="mt-2 text-lg font-bold tracking-wide text-gold-100"
+            className="mt-2 text-lg font-bold tracking-wide text-cream"
           >
             +967 783 079 291
           </div>
@@ -35,7 +35,7 @@ export default function Contact() {
           <div className="mt-4 flex flex-col gap-4 sm:flex-row">
             <a
               href="tel:+967783079291"
-              className="flex items-center justify-center gap-2 rounded-lg bg-gold-500 px-8 py-3 text-base font-bold text-ink-900 shadow-card transition-colors duration-300 hover:bg-gold-600"
+              className="flex items-center justify-center gap-2 rounded-lg bg-brown-700 px-8 py-3 text-base font-bold text-white shadow-card transition-colors duration-300 hover:bg-brown-800"
             >
               <Phone size={20} />
               اتصل الآن

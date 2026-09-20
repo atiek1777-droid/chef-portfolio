@@ -7,13 +7,13 @@ const traits = [
     title: "العمل تحت الضغط",
     description:
       "قدرة عالية على إنجاز الطلبات في أوقات الذروة دون التأثير على الجودة",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
   },
   {
     icon: ShieldCheck,
     title: "تنظيم المطبخ",
     description: "الالتزام بالنظافة وترتيب المطبخ وسلامة الأغذية بشكل دائم",
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1581099160562-40eb08ab9c19?w=400&h=300&fit=crop",
   },
   {
     icon: Timer,
@@ -32,24 +32,24 @@ const traits = [
 
 export default function Experience() {
   return (
-    <section id="الخبرات" className="section-padding bg-royal-50">
+    <section id="الخبرات" className="section-padding bg-amber-50">
       <div className="container-page">
         <div className="mb-12 flex flex-col items-center gap-4 text-center sm:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-ink-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-brown-800">
             الخبرة العملية
           </h2>
-          <p className="max-w-2xl text-base leading-7 text-ink-700/80">
+          <p className="max-w-2xl text-base leading-7 text-warmgray-600">
             خبرة عملية تزيد عن عشر سنوات في مجال المطاعم والمطابخ، اكتسب
             خلالها مهارات عملية راسخة في إدارة سير العمل داخل المطبخ
           </p>
-          <span className="h-1 w-16 rounded-full bg-gradient-to-l from-royal-600 to-crimson-500" />
+          <span className="h-1 w-16 rounded-full bg-gradient-to-l from-amber-500 to-yellow-500" />
         </div>
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {traits.map(({ icon: Icon, title, description, image }) => (
             <div
               key={title}
-              className="rounded-2xl border border-royal-100 bg-white overflow-hidden shadow-card hover:shadow-lg transition-shadow duration-300"
+              className="rounded-2xl border border-amber-100 bg-white overflow-hidden shadow-card hover:shadow-lg transition-shadow duration-300"
             >
               <div className="relative h-40 w-full overflow-hidden bg-cream">
                 <Image
@@ -61,11 +61,11 @@ export default function Experience() {
                 />
               </div>
               <div className="p-5 text-right">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-royal-600 text-white">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-amber-500 text-white">
                   <Icon size={20} strokeWidth={1.8} />
                 </div>
-                <h3 className="text-base font-bold text-ink-900">{title}</h3>
-                <p className="mt-2 text-xs leading-6 text-ink-700/80">
+                <h3 className="text-base font-bold text-brown-800">{title}</h3>
+                <p className="mt-2 text-xs leading-6 text-warmgray-600">
                   {description}
                 </p>
               </div>

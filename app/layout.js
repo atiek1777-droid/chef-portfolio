@@ -21,6 +21,11 @@ export const metadata = {
     icon: "/favicon.ico",
     apple: "/icons/apple-touch-icon-180x180.png",
   },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "حبيب هلال",
+  },
 };
 
 export const viewport = {
@@ -29,7 +34,7 @@ export const viewport = {
   minimumScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#5400DE",
+  themeColor: "#D97706",
 };
 
 export default function RootLayout({ children }) {
@@ -46,7 +51,7 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon-180x180.png" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#5400DE" />
+        <meta name="theme-color" content="#D97706" />
         <meta name="mobile-web-app-capable" content="yes" />
       </head>
       <body className="font-sans" style={{ fontFamily: 'Tajawal, system-ui, sans-serif' }}>

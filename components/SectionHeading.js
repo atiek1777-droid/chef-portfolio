@@ -4,11 +4,11 @@ export default function SectionHeading({ title, description, align = "center" })
 
   return (
     <div className={`flex flex-col gap-4 ${alignment} mb-12 sm:mb-16`}>
-      <h2 className="text-3xl md:text-4xl font-bold text-ink-900">{title}</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-brown-800">{title}</h2>
       {description ? (
-        <p className="max-w-2xl text-base leading-7 text-ink-700/80">{description}</p>
+        <p className="max-w-2xl text-base leading-7 text-warmgray-600">{description}</p>
       ) : null}
-      <span className="h-1 w-16 rounded-full bg-gradient-to-l from-royal-600 to-crimson-500" />
+      <span className="h-1 w-16 rounded-full bg-gradient-to-l from-amber-500 to-yellow-500" />
     </div>
   );
 }

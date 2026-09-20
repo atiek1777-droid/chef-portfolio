@@ -48,7 +48,7 @@ export default function InstallPrompt() {
 
   return (
     <div className="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-4 sm:w-80 z-50">
-      <div className="bg-royal-600 text-white rounded-lg shadow-lg p-4">
+      <div className="bg-amber-500 text-white rounded-lg shadow-lg p-4">
         <div className="flex items-start justify-between mb-3">
           <div className="flex items-center gap-2">
             <Download size={20} />
@@ -62,12 +62,12 @@ export default function InstallPrompt() {
             <X size={18} />
           </button>
         </div>
-        <p className="text-sm text-white/85 mb-4">
+        <p className="text-sm text-white/90 mb-4">
           ثبّت التطبيق على شاشتك الرئيسية للوصول السريع
         </p>
         <button
           onClick={handleInstall}
-          className="w-full bg-gold-500 hover:bg-gold-600 text-ink-900 font-bold py-2 rounded transition-colors"
+          className="w-full bg-brown-700 hover:bg-brown-800 text-white font-bold py-2 rounded transition-colors"
         >
           ثبّت الآن
         </button>
